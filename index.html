@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-website</title>
+    <link rel="stylesheet" href="./assert/fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script&family=Epilogue:wght@300&family=Joan&family=Kdam+Thmor+Pro&family=Lobster&family=Lobster+Two&family=Poppins:wght@300&family=Raleway&family=Roboto&family=Source+Sans+Pro:ital@1&family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script&family=Epilogue:wght@300&family=Joan&family=Kdam+Thmor+Pro&family=Lobster&family=Lobster+Two&family=Poppins:wght@300&family=Raleway&family=Roboto&family=Source+Sans+Pro:ital@1&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!------------------------header-------------------->  
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container-fluid">
+      <img class="head-logo" src="images/metastore.png">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ecommerce-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ecommerce-navbar">
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-3"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item px-3"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-item px-3"><a href="#" class="nav-link">Cart</a></li>
+              <li class="nav-item px-3"><a href="#" class="nav-link">More</a></li>
+              <li class="nav-item px-3"><a href="#" class="nav-link"><button type="button" class="btn btn-danger">Login</button></a></li>
+              <li class="nav-item px-3"><a href="#" class="nav-link"><button type="button" class="btn btn-primary">Sign In</button></a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-------------------head-elements------------->
+   <div class="top-section">
+      <div class="head-element">
+        <i class="fa-solid fa-cart-arrow-down fa-2x" style="color: #A149FA;"></i>
+        <p class="para">Top Offers</p>
+      </div>
+      <div class="head-element">
+        <i class="fa-solid fa-bag-shopping fa-2x" style="color: #53BF9D;"></i>
+        <p class="para">Grocery</p>
+      </div>
+      <div class="head-element">
+        <i class="fa-solid fa-mobile-screen-button fa-2x" style="color: #da2840;"></i>
+        <p class="para">Mobiles</p>
+      </div>
+      <div class="head-element">
+        <i class="fa-solid fa-user-tie fa-2x" style="color: #1ac7e2;"></i>
+        <p class="para">Fashion</p>
+      </div>
+      <div class="head-element">
+        <i class="fa-solid fa-laptop fa-2x" style="color: #eedf0c;"></i>
+        <p class="para">Laptop</p>
+      </div>
+      <div class="head-element">
+        <i class="fa-solid fa-plane fa-2x"style="color: #990000;"></i>
+        <p class="para">Travel</p>
+      </div>
+    </div>
+    <!-----------------------main-templates------------------->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/temp-5org.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner1.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/tem-1.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/temp-7.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/temp-3org.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/tem-3.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img-ban.jpg" class="d-block w-100" style="height: 270px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-----------------------Deals of the day---------------------->
+
+      <div class="deals">
+        <div class="deal-section">
+          <h3>Deals of the Day</h3>
+          <button type="button" class="btn btn-primary"  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">VIEW ALL</button>
+          <hr>
+        </div>
+        <div class="deal-images">
+          <div class="images-1"><img src="images/buy-1.jpg" style="height: 200px; width: 200px;"><h6>T-Shirts</h6><p>Upto 30% Off</p></div>
+          <div class="images-1"><img src="images/deal-7.jpg" style="height: 200px; width: 200px;"><h6>Shoes</h6><p>Upto 70% Off</p></div>
+          <div class="images-1"><img src="images/deal-6.jpg" style="height: 200px; width: 200px;"><h6>Smart Watch</h6><p>Upto 80% Off</p></div>
+          <div class="images-1"><img src="images/deal-1.webp" style="height: 200px; width: 200px;"><h6>Home Beds</h6><p>Starts $500</p></div>
+          <div class="images-1"><img src="images/deal-3.webp" style="height: 200px; width: 200px;"><h6>Wood Queen Bed</h6><p>Min 60% Off</p></div>
+          <div class="images-1"><img src="images/deal-4.jpg" style="height: 200px; width: 200px;"><h6>Sunglasses</h6><p>Under $350</p></div>
+          <div class="images-1"><img src="images/deal-8.jpg" style="height: 200px; width: 200px;"><h6>Utensils</h6><p>Save upto 30%</p></div>
+        </div>
+      </div>
+
+      <!-------------Trending offers---------------------------------->
+      <div class="deals">
+        <div class="deal-section">
+          <h3>Trending Offers</h3>
+          <button type="button" class="btn btn-primary"  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">VIEW ALL</button>
+          <hr>
+        </div>
+        <div class="deal-images">
+          <div class="images-1"><img src="images/shoe.jpg" style="height: 200px; width: 200px;"><h6>Puma Shoes</h6><p>Upto 30% Off</p></div>
+          <div class="images-1"><img src="images/product-7.jpg" style="height: 200px; width: 200px;"><h6>Socks</h6><p>Upto 70% Off</p></div>
+          <div class="images-1"><img src="images/iphone.png" style="height: 200px; width: 200px;"><h6>Iphone</h6><p>Upto 80% Off</p></div>
+          <div class="images-1"><img src="images/deal-5.jpg" style="height: 200px; width: 200px;"><h6>Utensils</h6><p>Starts $500</p></div>
+          <div class="images-1"><img src="images/bottle.jpg" style="height: 200px; width: 200px;"><h6>Water Bottle</h6><p>Min 60% Off</p></div>
+          <div class="images-1"><img src="images/exclusive.png" style="height: 200px; width: 200px;"><h6>Band Watch</h6><p>Under $350</p></div>
+          <div class="images-1"><img src="images/buy-2.jpg" style="height: 200px; width: 200px;"><h6>Shoes</h6><p>Save upto 30%</p></div>
+        </div>
+      </div>
+</body>
+</html>

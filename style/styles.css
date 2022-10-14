@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.head-logo {
+    height: 60px;
+    width: 160px;
+}
+.search-container {
+    margin-left: 260px;
+}
+.head-element {
+    margin-top: 20px;
+    padding-left: 50px;
+    display: inline-block;
+}
+.top-section {
+    background-color: #112B3C;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.deals {
+    margin-top: 13px;
+    border: 2px solid rgb(234, 234, 234);
+    height: 380px;
+}
+.deal-section {
+    padding-top: 6px;
+    padding-left: 25px;
+}
+.deal-images{
+    display: -webkit-inline-flex;
+    padding-left: 12px;
+    text-align: center;
+    padding-right: auto;
+}
+.images-1 {
+    padding-left: 2px;
+}
+.deal-images p{
+    color:chartreuse;
+}
+h6 {
+    padding-top: 10px;
+}
